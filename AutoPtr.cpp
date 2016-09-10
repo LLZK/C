@@ -12,7 +12,7 @@ public:
 	}
 	AutoPtr(AutoPtr& ap)
 	{   
-		_ptr = ap._ptr;
+		_ptr = ap._ptr; 
 		delete ap._ptr;
 		ap._ptr = NULL;
 	}
